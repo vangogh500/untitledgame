@@ -2,6 +2,7 @@
 
 ##Things to still be implemented:
 Organize sprites into their respective levels.
+
 Implement the getTile method in the specific levels rather then Level.
 
 
@@ -16,6 +17,7 @@ arguments: string representation of the path, width of sheet, height of sheet
 
 ###Sprite class represents sprites within the spritesheets. There are two ways to construct them: via an image or by color.
 arguments by image: width of sprite, height of sprite, x index (beginning with 0), y index (beginning with 0), the sheet object that it belongs too
+
 arguments by color (creates a sprite of one color): width of sprite, height of sprite, color code (with 0x in front)
 
 ##Package: entity.mob
